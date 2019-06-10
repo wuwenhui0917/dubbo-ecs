@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/dubbo-config-api"/>
+	<classpathentry kind="src" path="/dubbo-registry-api"/>
+	<classpathentry kind="src" path="/dubbo-cluster"/>
+	<classpathentry kind="src" path="/dubbo-rpc-api"/>
+	<classpathentry kind="src" path="/dubbo-common"/>
+	<classpathentry kind="src" path="/hessian-lite"/>
+	<classpathentry kind="src" path="/dubbo-container-api"/>
+	<classpathentry kind="src" path="/dubbo-monitor-api"/>
+	<classpathentry kind="src" path="/dubbo-remoting-api"/>
+	<classpathentry kind="src" path="/dubbo-filter-validation"/>
+	<classpathentry kind="src" path="/dubbo-filter-cache"/>
+	<classpathentry kind="src" path="/dubbo-rpc-injvm"/>
+	<classpathentry kind="src" path="/dubbo-registry-default"/>
+	<classpathentry kind="src" path="/dubbo-monitor-default"/>
+	<classpathentry kind="src" path="/dubbo-rpc-default"/>
+	<classpathentry kind="src" path="/dubbo-rpc-rmi"/>
+	<classpathentry kind="src" path="/dubbo-remoting-netty"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

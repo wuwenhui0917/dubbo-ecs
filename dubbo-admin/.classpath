@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/cache/cache-api/0.4/cache-api-0.4.jar" sourcepath="M2_REPO/javax/cache/cache-api/0.4/cache-api-0.4-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo/2.5.4-SNAPSHOT/dubbo-2.5.4-SNAPSHOT.jar" sourcepath="M2_REPO/com/alibaba/dubbo/2.5.4-SNAPSHOT/dubbo-2.5.4-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-config-api/2.5.4-SNAPSHOT/dubbo-config-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-registry-api/2.5.4-SNAPSHOT/dubbo-registry-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-cluster/2.5.4-SNAPSHOT/dubbo-cluster-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-api/2.5.4-SNAPSHOT/dubbo-rpc-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-common/2.5.4-SNAPSHOT/dubbo-common-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar" sourcepath="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/hessian-lite/3.2.1-fixed-2/hessian-lite-3.2.1-fixed-2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-container-api/2.5.4-SNAPSHOT/dubbo-container-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-monitor-api/2.5.4-SNAPSHOT/dubbo-monitor-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-api/2.5.4-SNAPSHOT/dubbo-remoting-api-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-filter-validation/2.5.4-SNAPSHOT/dubbo-filter-validation-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-filter-cache/2.5.4-SNAPSHOT/dubbo-filter-cache-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-injvm/2.5.4-SNAPSHOT/dubbo-rpc-injvm-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-config-spring/2.5.4-SNAPSHOT/dubbo-config-spring-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.2.16.RELEASE/spring-beans-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.2.16.RELEASE/spring-core-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.2.16.RELEASE/spring-context-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.2.16.RELEASE/spring-aop-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.2.16.RELEASE/spring-expression-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-netty/2.5.4-SNAPSHOT/dubbo-remoting-netty-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar" sourcepath="M2_REPO/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-mina/2.5.4-SNAPSHOT/dubbo-remoting-mina-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-grizzly/2.5.4-SNAPSHOT/dubbo-remoting-grizzly-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-p2p/2.5.4-SNAPSHOT/dubbo-remoting-p2p-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-http/2.5.4-SNAPSHOT/dubbo-remoting-http-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-default/2.5.4-SNAPSHOT/dubbo-rpc-default-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-rmi/2.5.4-SNAPSHOT/dubbo-rpc-rmi-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-hessian/2.5.4-SNAPSHOT/dubbo-rpc-hessian-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-http/2.5.4-SNAPSHOT/dubbo-rpc-http-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.2.16.RELEASE/spring-web-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-webservice/2.5.4-SNAPSHOT/dubbo-rpc-webservice-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-thrift/2.5.4-SNAPSHOT/dubbo-rpc-thrift-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-memcached/2.5.4-SNAPSHOT/dubbo-rpc-memcached-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-rpc-redis/2.5.4-SNAPSHOT/dubbo-rpc-redis-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-registry-default/2.5.4-SNAPSHOT/dubbo-registry-default-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-registry-multicast/2.5.4-SNAPSHOT/dubbo-registry-multicast-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-registry-zookeeper/2.5.4-SNAPSHOT/dubbo-registry-zookeeper-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-remoting-zookeeper/2.5.4-SNAPSHOT/dubbo-remoting-zookeeper-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-registry-redis/2.5.4-SNAPSHOT/dubbo-registry-redis-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-monitor-default/2.5.4-SNAPSHOT/dubbo-monitor-default-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-container-spring/2.5.4-SNAPSHOT/dubbo-container-spring-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-container-jetty/2.5.4-SNAPSHOT/dubbo-container-jetty-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-container-log4j/2.5.4-SNAPSHOT/dubbo-container-log4j-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/dubbo-container-logback/2.5.4-SNAPSHOT/dubbo-container-logback-2.5.4-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/citrus/citrus-webx-all/3.0.8/citrus-webx-all-3.0.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-jexl/2.0.1/commons-jexl-2.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" sourcepath="M2_REPO/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/3.2.16.RELEASE/spring-context-support-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.2.16.RELEASE/spring-tx-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-jdbc/3.2.16.RELEASE/spring-jdbc-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-orm/3.2.16.RELEASE/spring-orm-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/3.2.16.RELEASE/spring-webmvc-3.2.16.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ecs/ecs/1.4.2/ecs-1.4.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.3/commons-codec-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/1.4/commons-io-1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/1.6.3/groovy-all-1.6.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.7.1/ant-1.7.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar" sourcepath="M2_REPO/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.6.4/velocity-1.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/freemarker/freemarker/2.3.16/freemarker-2.3.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/1.1.7/mina-core-1.1.7.jar" sourcepath="M2_REPO/org/apache/mina/mina-core/1.1.7/mina-core-1.1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/grizzly/grizzly-core/2.1.4/grizzly-core-2.1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/grizzly/grizzly-framework/2.1.4/grizzly-framework-2.1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/gmbal/gmbal-api-only/3.0.0-b023/gmbal-api-only-3.0.0-b023.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/external/management-api/3.0.0-b012/management-api-3.0.0-b012.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/grizzly/grizzly-portunif/2.1.4/grizzly-portunif-2.1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/grizzly/grizzly-rcm/2.1.4/grizzly-rcm-2.1.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/alibaba/fastjson/1.1.39/fastjson-1.1.39.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/xstream/xstream/1.4.1/xstream-1.4.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar" sourcepath="M2_REPO/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/bsf/bsf-api/3.1/bsf-api-3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/sgroschupf/zkclient/0.1/zkclient-0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/netflix/curator/curator-framework/1.1.16/curator-framework-1.1.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/netflix/curator/curator-client/1.1.16/curator-client-1.1.16.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/11.0.1/guava-11.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/xmemcached/xmemcached/1.3.6/xmemcached-1.3.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/thrift/libthrift/0.8.0/libthrift-0.8.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/caucho/hessian/4.0.7/hessian-4.0.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.2/slf4j-log4j12-1.6.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/redis/clients/jedis/2.1.0/jedis-2.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-pool/commons-pool/1.5.5/commons-pool-1.5.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator/4.2.0.Final/hibernate-validator-4.2.0.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/easymock/easymock/3.0/easymock-3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/easymock/easymockclassextension/3.0/easymockclassextension-3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/jmockit/jmockit/0.999.8/jmockit-0.999.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

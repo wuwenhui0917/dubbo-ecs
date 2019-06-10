@@ -1,0 +1,2 @@
+hystrix=com.alibaba.dubbo.circute.imp.HystrixCricuteFacotory
+redis=com.alibaba.dubbo.circute.imp.RedisCricuteFactory

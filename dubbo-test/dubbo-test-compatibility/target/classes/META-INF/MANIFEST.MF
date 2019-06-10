@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: dubbo-test-compatibility
+Implementation-Version: 2.5.4-SNAPSHOT
+Built-By: Administrator
+Specification-Vendor: Alibaba
+Specification-Title: dubbo-test-compatibility
+Implementation-Vendor-Id: com.alibaba
+Build-Jdk: 1.8.0_161
+Specification-Version: 2.5.4-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Alibaba
+
