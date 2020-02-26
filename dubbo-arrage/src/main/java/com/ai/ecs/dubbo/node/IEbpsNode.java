@@ -20,7 +20,6 @@ public interface IEbpsNode extends Serializable {
 	 * execute 流程执行方法
 	 *
 	 * @param context 流程上下文
-	 * @throws EWorkflowException 流程异常
 	 * @Exception
 	 * @author：wuwh@asiainfo-linkage.com
 	 * @Sep 14, 2012 6:05:02 PM 
@@ -146,7 +145,6 @@ public interface IEbpsNode extends Serializable {
 	
 	/**
 	 * getAttrKey 获得.
-	 * @param param
 	 * @return Set返回说明
 	 * @Exception 异常说明
 	 * @author：wuwenhui

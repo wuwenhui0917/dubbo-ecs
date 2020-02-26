@@ -8,6 +8,7 @@ import com.ai.ecs.dubbo.node.IEbpsflow;
 import com.ai.ecs.dubbo.spi.FactoryBean;
 import com.ai.ecs.dubbo.spi.SpringFacotryBean;
 import com.ai.ecs.dubbo.spi.SpringHolder;
+import org.springframework.context.ApplicationContext;
 
 import java.sql.Connection;
 import java.util.HashMap;
@@ -23,6 +24,19 @@ public class EbpsContext implements IEbpsContext {
     static final String FIELD_INPUT="input";
     static final String FIELD_OUTPUT="output";
     private FactoryBean app = new SpringFacotryBean(SpringHolder.getApplicationContext());
+
+    /**
+     * 设置spring content
+     * @param context
+     */
+    public void setApplicationContext(ApplicationContext context){
+        if(context!=null){
+            this.app = new SpringFacotryBean(context);
+        }
+    }
+
+
+
 
 
 //    @Override
