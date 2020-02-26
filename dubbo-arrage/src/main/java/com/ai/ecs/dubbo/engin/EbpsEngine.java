@@ -52,19 +52,33 @@ public class EbpsEngine implements IEngine{
 
 
     @Override
-    public <T> T executeEbpsflow(String ebpsName, Object input, Class<T> resultClass, ApplicationContext container) throws EBPSException {
+    public <T> T executeEbpsflow(String flowcontent, Object input, Class<T> resultClass, ApplicationContext container) throws EBPSException {
         IEbpsContext context = new EbpsContext();
         context.initParams((Map)input);
 
         JSONEbpsFlow flow = new JSONEbpsFlow();
-        String filecontext = FileUtil.getFileContent(ebpsName);
         try {
-            flow.init(filecontext);
+            flow.init(flowcontent);
+            return executeEbpsflow(flow,input,resultClass,container);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+
+
+
+    }
+
+    @Override
+    public <T> T executeEbpsflow(IEbpsflow flow, Object input, Class<T> resultClass, ApplicationContext container) throws EBPSException {
+        EbpsContext context = new EbpsContext();
+        context.setApplicationContext(container);
+        context.initParams((Map)input);
+        try {
             context.setEbpsflow(flow);
             IEbpsNode node = flow.getStartNode();
             while(true){
                 Ilink linke =  node.execute(context);
-                System.out.println(linke);
                 if(linke==null) break;
                 node = flow.getToNodeByLink(linke);
                 if(node==null) break;
@@ -81,10 +95,9 @@ public class EbpsEngine implements IEngine{
         }
         //对象自动装配，将map转化成对应的bean对象
         if(resultClass!=null){
-           return  ObjectMapper.createConverObject(output,resultClass);
+            return  ObjectMapper.createConverObject(output,resultClass);
         }
         return null;
-
     }
 
     @Override
@@ -98,7 +111,6 @@ public class EbpsEngine implements IEngine{
             IEbpsNode node = flow.getStartNode();
             while(true){
                 Ilink linke =  node.execute(context);
-                System.out.println(linke);
                 if(linke==null) break;
                 node = flow.getToNodeByLink(linke);
                 if(node==null) break;

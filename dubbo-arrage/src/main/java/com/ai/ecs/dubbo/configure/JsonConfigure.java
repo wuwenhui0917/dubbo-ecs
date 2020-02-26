@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
 /**
- * Created by Administrator on 2017/8/3.
+ * Created by wuwenhui on 2017/8/3.
  */
 public class JsonConfigure implements Configure {
 

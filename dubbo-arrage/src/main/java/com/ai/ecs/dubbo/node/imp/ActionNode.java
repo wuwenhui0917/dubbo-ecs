@@ -70,7 +70,6 @@ public class ActionNode extends AbstractNode {
                     Map returnMap = ObjectMapper.converMap(result);
                     context.getOutput().putAll(returnMap);
                 } catch (Exception e) {
-                    e.printStackTrace();
                     new EBPSException();
                 }
             }

@@ -54,15 +54,16 @@ public class SpringHolder implements ApplicationContextAware, DisposableBean {
     /**
      * 实现ApplicationContextAware接口, 注入Context到静态变量中.
      */
+    @Override
     public void setApplicationContext(ApplicationContext applicationContext) {
 
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         SpringHolder.applicationContext = applicationContext;
     }
 
     /**
      * 实现DisposableBean接口, 在Context关闭时清理静态变量.
      */
+    @Override
     public void destroy() throws Exception {
         SpringHolder.clearHolder();
     }

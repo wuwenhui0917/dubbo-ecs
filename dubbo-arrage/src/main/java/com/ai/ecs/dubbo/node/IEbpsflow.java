@@ -56,7 +56,7 @@ public interface IEbpsflow extends Serializable {
 	 *
 	 * @param linkName
 	 * @return
-	 * @throws EWorkflowException Ilink
+	 * @throws EBPSException Ilink
 	 * @Exception
 	 * @author：wuwh@asiainfo-linkage.com
 	 * @Sep 15, 2012 11:00:10 AM 

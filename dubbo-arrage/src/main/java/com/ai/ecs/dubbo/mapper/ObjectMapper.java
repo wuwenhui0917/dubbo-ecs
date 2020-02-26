@@ -65,7 +65,6 @@ public class ObjectMapper {
 //            e.printStackTrace();
             throw new EBPSException(21,e);
         }
-        System.out.println(objetvalue);
         return (T) objetvalue;
 
     }

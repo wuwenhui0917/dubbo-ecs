@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by Administrator on 2017/8/4.
+ * Created by wuwh6 on 2017/8/4.
  */
 public class JSONEbpsFlow implements IEbpsflow {
     //node节点列表
@@ -30,6 +30,8 @@ public class JSONEbpsFlow implements IEbpsflow {
     private Map<String,IEbpsNode> nodes = new HashMap<String,IEbpsNode>();
     //线节点
     private Map<String,Ilink> links = new HashMap<String,Ilink>();
+    //流程名称
+    private String flowName;
 
     /**
      * 依据类型获取下标值
@@ -201,7 +203,7 @@ public class JSONEbpsFlow implements IEbpsflow {
     }
 
     public String getFlowName() {
-        return this.getFlowName();
+        return this.flowName;
     }
 
     public void clear() {
@@ -225,5 +227,9 @@ public class JSONEbpsFlow implements IEbpsflow {
 
     public String getVersion() {
         return null;
+    }
+
+    public void setFlowName(String flowName) {
+        this.flowName = flowName;
     }
 }
