@@ -25,6 +25,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <commons-beanutils.version>1.9.1</commons-beanutils.version>
+        <seata.version>1.0.0-SNAPSHOT</seata.version>
     </properties>
 
     <dependencies>
@@ -35,6 +36,11 @@
                 <version>3.8.1</version>
                 <scope>test</scope>
             </dependency>
+        <dependency>
+            <groupId>io.seata</groupId>
+            <artifactId>seata-all</artifactId>
+            <version>${seata.version}</version>
+        </dependency>
 
             <dependency>
                 <groupId>cglib</groupId>
